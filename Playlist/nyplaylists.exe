@@ -1,0 +1,26 @@
+#include <iostream> //read/write
+#include <fstream> //in/out files
+#include <filesystem> //file creating etc. in case I need it
+#include <string> //strings
+#include <vector> //vectors
+#include <algorithm> // For std::swap
+
+
+
+
+int main(){
+//defining some basic values
+    std::string line;
+    std::vector <std::string> playlist;
+
+//opening the files
+    std::ifstream originalPlaylist("playlist.txt");
+    std::ifstream originalActions("actions.txt")
+
+//setting up the loop
+    while (std::getline(originalPlaylist, line)){
+        playlist.push_back(line)
+    }
+
+
+}
