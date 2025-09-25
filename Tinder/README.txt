@@ -1,0 +1,14 @@
+Author: Otakar Lichnovsky
+Total Time Spent: About 35 hours, I have really lost count.
+I have started on Monday but immediately ran into an issue where I did not understand how to assign the pointers like head and tail to the correct Node, so I stopped after that.
+On Tuesday I have tried to come up with a solution without using AI (I failed miserably, my logic was mostly correct, but I was using AGAIN just the wrong syntax - it is so demotivating - like pointer.getname() instead of pointer->getname()) I have just built most of the initial classes (wrongly) and called it a day.
+On Wednesday were labs where I finally started understanding the whole way how the linked lists work, but I still used wrong syntax and barely finished the labs with a lot of help from the mentors. I fixed some minor issues with my logic, but I still did the same mistakes with the pointer syntax. I have spent around 10-12 hours already on this assignment at this point
+On Thursday, I have gone to office hours and there I fixed the remainder of my logic when it comes to creating new Nodes, but I did not have much success later (because of the same fucking syntax, I am so fucking pissed). We are talking about 18 hours at the end of the day spent on this stupid fucking piece of shit. 
+On Friday I gave up and just used AI just to mostly confirm my logic but scrutinize my syntax. The problem is that once you input it and copy it from the AI, it often changes the whole structure and sometimes even functionality of the code, so I have tried hotfixing it until about 11:30 pm. definitely over 24 full hours spent at this point.
+Today I did not even eat/drink once, I am trying to fix this fucking mess for the whole day, but it is just looping bugs at this point. The worst thing is that it compiles, it just doesn't run how I want it to. I am so done with this, python was easy because the syntax at least made sense, but here I get knowledge-checked every 5 fucking minutes about some most random bullshit fucking error/behavior I have ever seen. 
+
+Just as a taster for the bullshit I am dealing with here: SOMEHOW SOMEWAY IN THIS SINGLY LINKED LIST, WHEN I USE current = current->next IN THE MATCH FUNCTION IT POINTS TO THE FUCKING PREVIOUS AND LOOPS ITELF INFINITELY LIKE HOW THE FUCK DOES THIS SHIT HAPPEN, SHIT SYSTEM
+I fixed it (kinda) and now the output is 1 4 2 5 3 6 instead of 1 2 3 4 5 6 and I have no clue why.
+
+also test cases 6 and 17 are just broken on Submmitty, how, I do not know, but I am STARVING.
+and to top it all off, my unmatch function is a total fucking mess.
